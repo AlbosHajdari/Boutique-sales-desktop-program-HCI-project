@@ -1,12 +1,10 @@
 
-import java.awt.BorderLayout;
 import java.util.regex.*;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
-import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
@@ -20,47 +18,28 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.awt.event.ActionEvent;
 
-import java.sql.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.Font;
-import javax.swing.JFormattedTextField;
 import javax.swing.SwingConstants;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-import java.awt.Component;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.KeyStroke;
 import java.awt.event.InputEvent;
-import javax.swing.JCheckBox;
 import java.awt.Toolkit;
 import java.awt.Color;
-import javax.swing.JTabbedPane;
-import javax.swing.JTable;
 import javax.swing.JComboBox;
-import javax.swing.border.TitledBorder;
 import javax.swing.border.LineBorder;
 
 import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Properties;
-
-import javax.swing.JFormattedTextField.AbstractFormatter;
-
-import org.jdatepicker.*;
-import org.jdatepicker.impl.*;
-import org.jdatepicker.util.*;
 import javax.swing.DefaultComboBoxModel;
 import com.toedter.calendar.JDateChooser;
 import java.util.Date;
-import java.awt.event.ItemListener;
-import java.awt.event.ItemEvent;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import javax.swing.ImageIcon;

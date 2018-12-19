@@ -1,6 +1,6 @@
 
 
-import java.awt.BorderLayout;import java.awt.Color;
+import java.awt.Color;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -83,7 +83,6 @@ public class editoPunetorin extends JFrame {
 		addWindowListener(new WindowAdapter() {
 			@Override
 			public void windowOpened(WindowEvent arg0) {
-				frmStafi stafi = new frmStafi();
 				conn = connectionClass.connectDb();
 				try {
 				

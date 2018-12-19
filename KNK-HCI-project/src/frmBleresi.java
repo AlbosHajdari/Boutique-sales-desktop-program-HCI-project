@@ -1,5 +1,4 @@
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -20,15 +19,12 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.JPasswordField;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.KeyStroke;
 import javax.swing.SwingConstants;
-import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 
-import java.sql.*;
 import javax.swing.JComboBox;
 import javax.swing.ButtonGroup;
 import javax.swing.DefaultComboBoxModel;
@@ -42,16 +38,12 @@ import java.awt.event.MouseEvent;
 import java.awt.event.ActionEvent;
 import com.toedter.calendar.JDateChooser;
 import javax.swing.ImageIcon;
-import java.awt.Component;
-import java.awt.Dimension;
-import javax.swing.JSplitPane;
 import javax.swing.JSeparator;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 public class frmBleresi extends JFrame {
 	private JLabel lblEmri;
 	private JLabel lblMbiemri;
-	private JLabel lblVendbanimi;
 	private JLabel lblDataELindjes;
 	private JLabel lblTel;
 	private JLabel lblEmail;

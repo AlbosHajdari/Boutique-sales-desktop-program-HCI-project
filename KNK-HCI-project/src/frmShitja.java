@@ -64,15 +64,12 @@ import javax.swing.table.TableCellRenderer;
 import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.Element;
-import com.itextpdf.text.Font.FontFamily;
-import com.itextpdf.text.Font.FontStyle;
 import com.itextpdf.text.FontFactory;
 import com.itextpdf.text.PageSize;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.Phrase;
 import com.itextpdf.text.pdf.PdfWriter;
-import com.sun.javafx.css.converters.FontConverter.FontWeightConverter;
 
 public class frmShitja extends JFrame {
 	

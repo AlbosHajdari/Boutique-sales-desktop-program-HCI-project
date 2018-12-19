@@ -1,5 +1,4 @@
 
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -10,15 +9,12 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 import java.awt.Font;
-import java.awt.Image;
-
 import javax.swing.SwingConstants;
 import javax.swing.JTextField;
 import javax.swing.JComboBox;
 import javax.swing.JButton;
 import javax.swing.JRadioButton;
 import javax.swing.ImageIcon;
-import javax.imageio.ImageIO;
 import javax.swing.ButtonGroup;
 import javax.swing.DefaultComboBoxModel;
 
@@ -26,11 +22,9 @@ import java.sql.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.regex.Pattern;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.awt.image.BufferedImage;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.awt.event.ActionListener;
@@ -39,9 +33,7 @@ import java.awt.Color;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import javax.swing.JSeparator;
-import java.awt.Component;
 public class frmBlerjet extends JFrame {
-	private String gjinia = "";
 	private JPanel contentPane;
 	private JTextField txtBarkodi;
 	private JTextField txtProdukti;
@@ -63,8 +55,6 @@ public class frmBlerjet extends JFrame {
 	private JLabel lblUseri;
 	private JLabel lblPerdoruesi;
 	private boolean shiko = true;
-	private double cmimiBlerjesMeTvsh =0;
-	private double cmimiShitjesMeTvsh =0; 
 	private double totali = 0;
 	private JLabel lblprodukti;
 	private JLabel lblbarkodi; 
@@ -938,9 +928,8 @@ public class frmBlerjet extends JFrame {
 		{
 			
 			
-			String gjinia = "";
 			Pattern cmim = Pattern.compile("^[0-9]+[\\.]?[0-9]*$");
-			String produktet = "^[a-zA-ZëËÇç\\Ø0-9\\.\\/\\-\\s]+$", emrat = "^[a-zA-ZëËÇç]+$",sasia="^[0-9]+[.]?[0-9]*$",brendi = "^[a-zA-Z]+[\\s]?[a-zA-Z]+$",barkod = "^[a-zA-Z0-9]+$",furnitor = "^[a-zA-Z0-9ëËÇç\\s\\.]+$";
+			String produktet = "^[a-zA-ZëËÇç\\Ø0-9\\.\\/\\-\\s]+$",sasia="^[0-9]+[.]?[0-9]*$",barkod = "^[a-zA-Z0-9]+$",furnitor = "^[a-zA-Z0-9ëËÇç\\s\\.]+$";
 			int counter = 0;
 			
 			
@@ -1073,7 +1062,7 @@ public class frmBlerjet extends JFrame {
 			
 			
 			Pattern cmim =Pattern.compile("^[0-9]+[\\.]?[0-9]*$");
-			String produktet = "^[a-zA-ZëËÇç\\Ø0-9\\.\\/\\-\\s]+$",emrat = "^[a-zA-Z]+$",sasia="^[0-9]+$",barkod = "^[a-zA-Z0-9]+$",furnitor = "^[a-zA-Z]+[\\s]?[a-zA-Z]+$";
+			String produktet = "^[a-zA-ZëËÇç\\Ø0-9\\.\\/\\-\\s]+$",sasia="^[0-9]+$",barkod = "^[a-zA-Z0-9]+$",furnitor = "^[a-zA-Z]+[\\s]?[a-zA-Z]+$";
 			int counter = 0;
 			
 			

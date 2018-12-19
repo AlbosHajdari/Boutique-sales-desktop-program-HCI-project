@@ -1,10 +1,4 @@
-import java.math.*;
-import java.security.*;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-
-
-import java.security.*;
 public class Encryption {
 	
 	final static String  STR_RANDOM = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

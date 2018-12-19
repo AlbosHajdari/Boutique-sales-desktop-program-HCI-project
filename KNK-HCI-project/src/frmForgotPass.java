@@ -1,9 +1,7 @@
-import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -25,8 +23,6 @@ import java.awt.event.MouseEvent;
 import javax.swing.JSeparator;
 import java.awt.Toolkit;
 import java.awt.Color;
-import javax.swing.UIManager;
-import java.awt.Component;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.Font;
