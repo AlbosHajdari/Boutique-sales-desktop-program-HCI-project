@@ -831,7 +831,6 @@ public class frmShitja extends JFrame {
 								com.itextpdf.text.pdf.PdfPTable tabela = new PdfPTable(columnWidths);
 								tabela.setTotalWidth(PageSize.A4.getWidth()-70);
 								tabela.setLockedWidth(true);
-								Paragraph pg = new Paragraph();
 								
 								if(Gjuhesia.gjuha.equals("alb"))
 								{
@@ -902,7 +901,6 @@ public class frmShitja extends JFrame {
 								doc.add(tabela);
 								doc.add(pr2);
 								
-								Paragraph pg1 = new Paragraph();
 								for(i=0;i<values.size();i++)
 								{
 									//Paragraph pr3 = new Paragraph(values.get(i).get(0)+"    "+values.get(i).get(1)+"                    "+values.get(i).get(2)+"                  "+df.format(Double.parseDouble(values.get(i).get(3)))+"                   "+df.format(Double.parseDouble(values.get(i).get(4)))+"€                  "+df.format(Double.parseDouble(values.get(i).get(5)))+"%                  "+df.format(Double.parseDouble(values.get(i).get(6)))+"€                   "+df.format(Double.parseDouble(values.get(i).get(7)))+"€                      "+df.format(Double.parseDouble(values.get(i).get(8)))+"€",font);
@@ -1629,7 +1627,6 @@ public class frmShitja extends JFrame {
 								com.itextpdf.text.pdf.PdfPTable tabela = new PdfPTable(columnWidths);
 								tabela.setTotalWidth(PageSize.A4.getWidth()-70);
 								tabela.setLockedWidth(true);
-								Paragraph pg = new Paragraph();
 								
 								if(Gjuhesia.gjuha.equals("alb"))
 								{
@@ -1704,7 +1701,6 @@ public class frmShitja extends JFrame {
 								doc.add(tabela);
 								doc.add(pr2);
 								
-								Paragraph pg1 = new Paragraph();
 								for(i=0;i<values.size();i++)
 								{
 									//Paragraph pr3 = new Paragraph(values.get(i).get(0)+"    "+values.get(i).get(1)+"                    "+values.get(i).get(2)+"                  "+df.format(Double.parseDouble(values.get(i).get(3)))+"                   "+df.format(Double.parseDouble(values.get(i).get(4)))+"€                  "+df.format(Double.parseDouble(values.get(i).get(5)))+"%                  "+df.format(Double.parseDouble(values.get(i).get(6)))+"€                   "+df.format(Double.parseDouble(values.get(i).get(7)))+"€                      "+df.format(Double.parseDouble(values.get(i).get(8)))+"€",font);

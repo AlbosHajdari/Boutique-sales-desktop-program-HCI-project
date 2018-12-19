@@ -175,6 +175,7 @@ public class frmDataShitja extends JFrame {
 		btnShikoShitjet.setFont(new Font("Arial Black", Font.BOLD, 16));
 		btnShikoShitjet.setBackground(new Color(153, 204, 255));
 		btnShikoShitjet.setIcon(new ImageIcon(frmDataShitja.class.getResource("/imgs/dollar.png")));
+		
 		btnShikoShitjet.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				btnShikoShitjet.setBackground(Color.BLUE);

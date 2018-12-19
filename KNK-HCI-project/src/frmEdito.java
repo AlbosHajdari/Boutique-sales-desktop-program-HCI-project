@@ -17,7 +17,6 @@ import javax.swing.ButtonGroup;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.regex.Pattern;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
@@ -36,7 +35,6 @@ public class frmEdito extends JFrame {
 	private JTextField txtCmVjeter;
 	private JTextField txtCmRi;
 	private Connection conn = null;
-	private ResultSet res = null;
 	private PreparedStatement pst = null;
 	private JLabel lblBarkodi;
 	private JLabel lblmimiParaprak;

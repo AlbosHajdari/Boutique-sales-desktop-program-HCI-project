@@ -28,7 +28,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTable;
 import javax.swing.JScrollPane;
-import javax.swing.JMenuItem;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Desktop;
@@ -51,7 +50,6 @@ public class frmRaportet extends JFrame {
 
 	private JPanel contentPane;
 	private JTable table;
-	private JMenuItem mntmHelp;
 	private JTextField txtCmimiMeTvsh;
 	private JButton btnKthehu;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
@@ -387,7 +385,6 @@ public class frmRaportet extends JFrame {
 						String dataSot = new SimpleDateFormat("yyyy-MM-dd").format(frmDataShitja.dataSot);
 
 						
-						int counter  = (int)(Math.random()*100);
 						String KohaTani = KohaTani();
 						Document doc = new Document();
 						String path="D:\\Blerje\\" + dataSot +" " + KohaTani +".pdf";
@@ -395,7 +392,6 @@ public class frmRaportet extends JFrame {
 						doc.open();
 						com.itextpdf.text.Font font = FontFactory.getFont(FontFactory.TIMES_ROMAN, 7, BaseColor.BLACK);
 						com.itextpdf.text.Font font0 = FontFactory.getFont(FontFactory.TIMES_ROMAN, 14, BaseColor.BLACK);
-						com.itextpdf.text.Font font1 = FontFactory.getFont(FontFactory.TIMES_ROMAN, 8, BaseColor.BLACK);
 						com.itextpdf.text.Image imde = com.itextpdf.text.Image.getInstance(frmShitja.class.getResource("/imgs/logo1.png"));
 						imde.scaleToFit(250f, 100f);
 						doc.add(imde);
@@ -496,7 +492,6 @@ public class frmRaportet extends JFrame {
 						while(rs.next())
 						{
 						
-							String c = String.valueOf(count);
 							String Emri = rs.getString("emriProduktit");
 				
 							String pershkrimi = rs.getString("pershkrimi");
@@ -570,7 +565,6 @@ public class frmRaportet extends JFrame {
 					String dataSot = new SimpleDateFormat("yyyy-MM-dd").format(frmDataShitja.dataSot);
 
 					
-					int counter  = (int)(Math.random()*100);
 					String KohaTani = KohaTani();
 					Document doc = new Document();
 					String path="D:\\Blerje\\" + dataSot +" " + KohaTani +".pdf";
@@ -578,7 +572,6 @@ public class frmRaportet extends JFrame {
 					doc.open();
 					com.itextpdf.text.Font font = FontFactory.getFont(FontFactory.TIMES_ROMAN, 7, BaseColor.BLACK);
 					com.itextpdf.text.Font font0 = FontFactory.getFont(FontFactory.TIMES_ROMAN, 14, BaseColor.BLACK);
-					com.itextpdf.text.Font font1 = FontFactory.getFont(FontFactory.TIMES_ROMAN, 8, BaseColor.BLACK);
 					com.itextpdf.text.Image imde = com.itextpdf.text.Image.getInstance(frmShitja.class.getResource("/imgs/logo1.png"));
 					imde.scaleToFit(250f, 100f);
 					doc.add(imde);
@@ -679,7 +672,6 @@ public class frmRaportet extends JFrame {
 					while(rs.next())
 					{
 					
-						String c = String.valueOf(count);
 						String Emri = rs.getString("emriProduktit");
 			
 						String pershkrimi = rs.getString("pershkrimi");

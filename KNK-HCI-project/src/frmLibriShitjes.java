@@ -79,7 +79,6 @@ public class frmLibriShitjes extends JFrame {
 	 public JDateChooser datePrej; 
 	 private JRadioButton rdbtnEng;
 	public JDateChooser dateDeri;
-	private int numri = 0;
 	private JRadioButton rdbtnAlb;
 	private final ButtonGroup buttonGroup = new ButtonGroup();
 	private JTextField txtVleraTotale;
@@ -766,7 +765,6 @@ public void printoAlb() {
 
 		
 		DateFormat df= new SimpleDateFormat("yyyy-MM-dd");
-		String dataParaprake = df.format(datePrej.getDate());
 		String dataSot = df.format(dateDeri.getDate());
 		
 		int counter  = objR.nextInt(5);
@@ -776,7 +774,6 @@ public void printoAlb() {
 		doc.open();
 		com.itextpdf.text.Font font = FontFactory.getFont(FontFactory.TIMES_ROMAN, 7, BaseColor.BLACK);
 		com.itextpdf.text.Font font0 = FontFactory.getFont(FontFactory.TIMES_ROMAN, 14, BaseColor.BLACK);
-		com.itextpdf.text.Font font1 = FontFactory.getFont(FontFactory.TIMES_ROMAN, 8, BaseColor.BLACK);
 		com.itextpdf.text.Image imde = com.itextpdf.text.Image.getInstance(frmShitja.class.getResource("/imgs/logo1.png"));
 		imde.scaleToFit(250f, 100f);
 		doc.add(imde);

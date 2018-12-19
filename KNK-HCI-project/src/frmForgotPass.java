@@ -41,7 +41,6 @@ public class frmForgotPass extends JFrame {
 	private final ButtonGroup buttonGroup = new ButtonGroup();
 	private JLabel lblEmail;
 	private JLabel txtDataLindjes;
-	private JButton btnKrijoFjalekaliminE;
 	private JLabel lblNumriPersonal;
 	private JSeparator separator;
 	private JSeparator separator_1;

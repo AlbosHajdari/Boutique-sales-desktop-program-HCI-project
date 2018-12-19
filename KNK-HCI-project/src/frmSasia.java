@@ -15,9 +15,6 @@ import java.awt.Font;
 import javax.swing.JRadioButton;
 import javax.swing.ButtonGroup;
 import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.regex.Pattern;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
@@ -29,9 +26,6 @@ import javax.swing.SwingConstants;
 public class frmSasia extends JFrame {
 
 	private JPanel contentPane;
-	private Connection conn = null;
-	private ResultSet res = null;
-	private PreparedStatement pst = null;
 	private JButton btnRuaj;
 	private int check = 0;
 	private JLabel lblPrRi;

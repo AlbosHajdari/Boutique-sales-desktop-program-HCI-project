@@ -78,7 +78,6 @@ public class frmKtheProduktin extends JFrame {
         }
 
 	};
-	private ArrayList<ArrayList<String>> values = new ArrayList<>();
 	private final JButton btnShqip = new JButton("");
 	private final JButton btnAnglisht = new JButton("");
 	private final static JTextField txtKerkoProduktin = new JTextField();

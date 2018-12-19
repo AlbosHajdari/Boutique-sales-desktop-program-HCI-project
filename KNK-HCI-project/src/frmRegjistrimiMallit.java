@@ -351,7 +351,6 @@ public void setTblPerdoruesit(JTable tblPerdoruesit) {
 					Date koha1 = new Date();
 					String koha3 = formatter4.format(koha1);
 					
-					int counter  = (int)(Math.random()*100);
 					Document doc = new Document();
 					String path="D:\\Regjistrimi\\RM" + dataSot +" "+koha3 +".pdf";
 					PdfWriter.getInstance(doc, new FileOutputStream(path));
@@ -444,7 +443,6 @@ public void setTblPerdoruesit(JTable tblPerdoruesit) {
 					while(rs.next())
 					{
 					
-						String c = String.valueOf(count);
 						String bar = rs.getString("barkodi");
 						String Emri = rs.getString("emriProduktit");
 			
