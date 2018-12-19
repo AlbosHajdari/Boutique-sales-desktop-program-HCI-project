@@ -1,4 +1,4 @@
-# KNK-Grupi9---HCI-Group9
+# KNK---HCI
 Detyre projekti nga lenda Komunikimi Njeri-Kompjuter.
 
 Project assignment from Human-Computer Interaction subject.
