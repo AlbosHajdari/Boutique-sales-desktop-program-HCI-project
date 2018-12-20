@@ -4,9 +4,9 @@ Detyre projekti nga lenda Komunikimi Njeri-Kompjuter.
 Project assignment from Human-Computer Interaction subject.
 
 
-Ky projekt eshte punuar nga studentet e vitit te dyte te Inxhinierise Kompjuterike:
+Ky projekt eshte punuar nga studentet e vitit te dyte te Inxhinierise Kompjuterike (2017/2018):
 
-This project was made by second year of Computer Engineering students:
+This project was made by second year of Computer Engineering students (2017/2018):
 
 1. Albert Zariqi
 2. Albos Hajdari
